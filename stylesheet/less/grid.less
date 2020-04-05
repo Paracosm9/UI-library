@@ -1,0 +1,110 @@
+
+.myrow, .mycolumn {
+  box-sizing: border-box;
+}
+
+.myrow{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.myrow + .myrow{
+  margin-top: 1.6%;
+}
+
+
+.myrow:before,
+.myrow:after {
+  content: " ";
+  display: flex;
+}
+.myrow:after {
+  clear: both;
+}
+
+h1 {
+  color: black;
+}
+
+.mycolumn {
+  position: relative;
+  float: none;
+  display: block;
+  text-align: center;
+}
+
+.mycolumn + .mycolumn {
+  margin-left: 1.6%;
+}
+
+.mycolumn-1 {
+  width: 6.86666666667%;
+  background-color: #00a8e6;
+}
+.mycolumn-2 {
+  width: 15.3333333333%;
+  background-color: #6f42c1;
+}
+.mycolumn-3 {
+  width: 23.8%;
+  background-color: #28a745;
+}
+.mycolumn-4 {
+  width: 32.2666666667%;
+  background-color: #6b9112;
+}
+.mycolumn-5 {
+  width: 40.7333333333%;
+  background-color: #ffcccc;
+}
+.mycolumn-6 {
+  width: 49.2%;
+  background-color: #9fcdff;
+}
+.mycolumn-7 {
+  width: 57.6666666667%;
+  background-color: #660000;
+}
+.mycolumn-8 {
+  width: 66.1333333333%;
+  background-color: #c91032;
+}
+.mycolumn-9 {
+  width: 74.6%;
+  background-color: #8ec73b;
+}
+.mycolumn-10 {
+  width: 83.0666666667%;
+  background-color: #00a8e6;
+}
+.mycolumn-11 {
+  width: 91.5333333333%;
+  background-color: #bd2130;
+}
+.mycolumn-12 {
+  width: 100%;
+  background-color: #17c521;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .mycolumn-1,
+  .mycolumn-2,
+  .mycolumn-3,
+  .mycolumn-4,
+  .mycolumn-5,
+  .mycolumn-6,
+  .mycolumn-7,
+  .mycolumn-8,
+  .mycolumn-9,
+  .mycolumn-10,
+  .mycolumn-11,
+  .mycolumn-12 {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+  }
+  .mycolumn + .mycolumn {
+    margin-left: 0;
+  }
+}
