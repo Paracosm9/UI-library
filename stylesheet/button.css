@@ -1,0 +1,117 @@
+/*body {background-color: #0c5460}*/
+.mybutton {
+    box-sizing: border-box;
+    min-width: 150px;
+    max-width: 100%;
+    min-height: 50px;
+    max-height: 100%;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+    background-color: grey;
+    padding: 2px;
+    outline: none;
+    text-justify: revert;
+}
+
+.mybutton:hover:not(.-rounded) {
+    opacity: 0.8;
+    cursor: pointer;
+    outline-color: rgba(0, 0, 0, 0.25);
+    outline-width: 3px;
+    outline-style: solid;
+}
+
+.-rounded:hover {
+    cursor: pointer;
+    box-shadow: 0 0 3pt 2pt rgba(0, 0, 0, 0.25);
+}
+.-rounded:active{
+    cursor: pointer;
+    box-shadow: 0 0 3pt 2pt rgba(0, 0, 0, 0.25);
+    border-color: rgba(0, 0, 0, 0.5);
+}
+
+.-s {
+    min-width: 75px;
+    max-width: 100%;
+    min-height: 25px;
+    max-height: 100%;
+}
+
+.-l {
+    min-width: 200px;
+    max-width: 100%;
+    min-height: 75px;
+    max-height: 100%;
+    font-size: 30px;
+}
+
+.mybutton-alert-s {
+    background-color: #e70000;
+    border-color: red;
+    border-width: 3px;
+}
+
+
+.mybutton-alert {
+    background-color: #e70000;
+    border-color: red;
+    border-width: 3px;
+}
+
+.mybutton-alert-l {
+
+    background-color: #e70000;
+    border-color: red;
+    border-width: 3px;
+}
+
+
+.mybutton-success {
+    background-color: #30d93a;
+    border-color: greenyellow;
+    border-width: 3px;
+}
+
+
+.mybutton-warning {
+    background-color: darkorange;
+    border-color: darkorange;
+    border-width: 3px;
+}
+
+
+.mybutton-black {
+    background-color: #1a1a1a;
+    color: white;
+    border-width: 3px;
+}
+
+
+.mybutton-white {
+    background-color: whitesmoke;
+    color: #1a1a1a;
+    border-color: whitesmoke;
+    border-width: 1px;
+}
+
+
+.mybutton-primary {
+    background-color: inherit;
+    box-shadow: #00ee00;
+    -webkit-box-shadow: 1px 1px 3px;
+}
+
+.-rounded {
+    min-width: 75px;
+    min-height: 75px;
+    border-radius: 100%;
+    border-color: rgba(0, 0, 0, 0);
+}
+ i {
+     margin-left: 2px;
+     margin-right: 6px;
+ }
